@@ -1,200 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Java Projects</title>
-
-<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
 <style>
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Poppins,sans-serif;
-}
-
 body{
 
-    min-height:100vh;
+    margin:0;
+    font-family:Arial,sans-serif;
 
-    background:
-    linear-gradient(135deg,#050816,#0f172a,#111827);
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
-
-    padding:30px;
+    background:#0f172a;
 
     color:white;
-}
 
-/* Card */
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    height:100vh;
+}
 
 .container{
 
-    width:90%;
-    max-width:1000px;
-
-    background:rgba(17,24,39,0.95);
-
-    border-radius:35px;
-
-    padding:50px;
-
-    display:flex;
-    gap:50px;
-    align-items:center;
-
-    box-shadow:
-    0 0 30px rgba(0,198,255,0.2),
-    0 0 60px rgba(127,92,255,0.2);
-}
-
-/* Left Image */
-
-.image{
-
-    flex:1;
-}
-
-.image img{
-
-    width:100%;
-
-    border-radius:25px;
-
-    box-shadow:
-    0 0 20px rgba(0,198,255,0.5),
-    0 0 40px rgba(127,92,255,0.3);
-}
-
-/* Right Content */
-
-.content{
-
-    flex:1;
-}
-
-.content h1{
-
-    font-size:65px;
-
-    margin-bottom:20px;
-
-    color:#00c6ff;
-
-    text-shadow:
-    0 0 15px #00c6ff,
-    0 0 30px #7f5cff;
-}
-
-.content p{
-
-    font-size:20px;
-
-    line-height:1.9;
-
-    color:#d1d5db;
-
-    margin-bottom:30px;
-}
-
-/* Skills */
-
-.skills{
-
-    display:flex;
-    flex-wrap:wrap;
-
-    gap:15px;
-
-    margin-bottom:35px;
-}
-
-.skills span{
-
-    padding:10px 18px;
-
-    border-radius:12px;
+    width:80%;
 
     background:#1e293b;
 
-    border:1px solid rgba(255,255,255,0.1);
+    padding:40px;
 
-    box-shadow:
-    0 0 10px rgba(0,198,255,0.2);
-
-    font-size:15px;
-}
-
-/* Buttons */
-
-.buttons{
+    border-radius:20px;
 
     display:flex;
-    gap:20px;
+
+    gap:40px;
+
+    align-items:center;
+
+    box-shadow:0 0 20px rgba(0,198,255,0.3);
 }
 
-a{
-    text-decoration:none;
+img{
+
+    width:250px;
+}
+
+h1{
+
+    font-size:55px;
+
+    color:#00c6ff;
+}
+
+p{
+
+    font-size:20px;
+
+    line-height:1.8;
 }
 
 button{
 
-    padding:15px 28px;
+    padding:15px 25px;
 
     border:none;
 
-    border-radius:15px;
+    border-radius:12px;
+
+    background:#00c6ff;
 
     color:white;
 
-    font-size:17px;
+    font-size:18px;
 
     cursor:pointer;
 
-    background:
-    linear-gradient(to right,#00c6ff,#7f5cff);
-
-    box-shadow:
-    0 0 15px rgba(0,198,255,0.5);
-
-    transition:0.4s;
-
-    display:flex;
-    align-items:center;
-    gap:10px;
+    margin-right:15px;
 }
 
 button:hover{
 
-    transform:scale(1.08);
-
-    box-shadow:
-    0 0 25px #00c6ff,
-    0 0 50px #7f5cff;
+    background:#7f5cff;
 }
 
-/* Mobile */
+a{
 
-@media(max-width:900px){
-
-    .container{
-
-        flex-direction:column;
-    }
-
-    .content h1{
-
-        font-size:45px;
-    }
+    text-decoration:none;
 }
 
 </style>
@@ -205,69 +100,34 @@ button:hover{
 
 <div class="container">
 
-    <!-- Image -->
-
-    <div class="image">
+    <div>
 
         <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png">
 
     </div>
 
-    <!-- Content -->
-
-    <div class="content">
+    <div>
 
         <h1>Java Programs</h1>
 
         <p>
 
-            This project contains various Java programs
-            including loops, arrays, strings,
-            object-oriented programming concepts,
-            patterns, and problem-solving programs.
+            Collection of Java programs including
+            arrays, loops, strings and OOP concepts.
 
         </p>
 
-        <!-- Skills -->
+        <a href="https://github.com/dhivyashreek12/java-progarms" target="_blank">
 
-        <div class="skills">
+            <button>View Code</button>
 
-            <span>Java</span>
-            <span>OOP</span>
-            <span>Arrays</span>
-            <span>Loops</span>
-            <span>Strings</span>
-            <span>Problem Solving</span>
+        </a>
 
-        </div>
+        <a href="index.html">
 
-        <!-- Buttons -->
+            <button>Back</button>
 
-        <div class="buttons">
-
-            <a href="https://github.com/dhivyashreek12/java-progarms" target="_blank">
-
-                <button>
-
-                    <i class='bx bxl-github'></i>
-                    View Code
-
-                </button>
-
-            </a>
-
-            <a href="index.html">
-
-                <button>
-
-                    <i class='bx bx-arrow-back'></i>
-                    Back
-
-                </button>
-
-            </a>
-
-        </div>
+        </a>
 
     </div>
 
