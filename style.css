@@ -165,3 +165,81 @@ button:hover{
     0 0 45px #7f5cff,
     0 0 70px rgba(127,92,255,0.9);
 }
+/* About Section */
+
+.about,
+.skills,
+.github,
+.contact {
+
+    text-align: center;
+
+    padding: 40px 20px;
+}
+
+.about h2,
+.skills h2,
+.github h2,
+.contact h2 {
+
+    font-size: 40px;
+
+    color: #00c6ff;
+
+    margin-bottom: 20px;
+}
+
+.about p,
+.contact p {
+
+    font-size: 20px;
+
+    color: #d1d5db;
+
+    max-width: 800px;
+
+    margin: auto;
+
+    line-height: 1.8;
+}
+
+/* Skills */
+
+.skill-box {
+
+    display: inline-block;
+
+    padding: 15px 30px;
+
+    border-radius: 15px;
+
+    background: rgba(255,255,255,0.08);
+
+    font-size: 20px;
+
+    color: white;
+
+    box-shadow: 0 0 15px rgba(0,198,255,0.3);
+}
+
+/* GitHub Button */
+
+.github-btn {
+
+    margin-top: 20px;
+}
+
+/* Footer */
+
+footer {
+
+    text-align: center;
+
+    padding: 25px;
+
+    margin-top: 40px;
+
+    border-top: 1px solid rgba(255,255,255,0.1);
+
+    color: #9ca3af;
+}
